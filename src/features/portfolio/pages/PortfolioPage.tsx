@@ -15,68 +15,138 @@ interface Project {
 const projects: Project[] = [
     {
         id: 1,
-        title: "Neon Dreams",
-        category: "Music Video",
-        type: "client",
-        image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80",
-        description: "A cyberpunk-inspired visual journey for the latest synthwave hit.",
+        title: "Bib'sfiha",
+        category: "Commercial",
+        type: "hobby",
+        image: "https://drive.google.com/thumbnail?id=10NqoRJnHHqpwAs_8glmmIfUxD-fa4UQX&sz=w800",
+        description: "",
         videoEmbedUrl: "https://drive.google.com/file/d/10NqoRJnHHqpwAs_8glmmIfUxD-fa4UQX/preview"
     },
     {
         id: 2,
-        title: "Urban Rhythm",
+        title: "Laminie Espaço",
         category: "Commercial",
         type: "client",
-        image: "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
-        description: "High-energy commercial spot for a leading sportswear brand."
+        image: "https://drive.google.com/thumbnail?id=1xPJcOb856WgxAFN5YpDcde6DMnmYTJ0-&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1xPJcOb856WgxAFN5YpDcde6DMnmYTJ0-/preview"
     },
     {
         id: 3,
-        title: "Silent Echoes",
-        category: "Short Film",
+        title: "Edit - Lawn mower",
+        category: "Shorts",
         type: "hobby",
-        image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
-        description: "An award-winning short film exploring themes of isolation."
+        image: "https://drive.google.com/thumbnail?id=12Y7p9ToqBvLkSLTEFEbCpoz9YX_8RmU9&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/12Y7p9ToqBvLkSLTEFEbCpoz9YX_8RmU9/preview"
     },
     {
         id: 4,
-        title: "Golden Hour",
-        category: "vlog",
+        title: "Edit - Max Verstappen vs Lewis Hamilton",
+        category: "Shorts",
         type: "hobby",
-        image: "https://images.unsplash.com/photo-1478720568477-152d9b164e63?w=800&q=80",
-        description: "Capturing the magical moments of a summer road trip."
+        image: "https://drive.google.com/thumbnail?id=1YVHL_CbHq4HG5axaul2ycuHHX33PYF89&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1YVHL_CbHq4HG5axaul2ycuHHX33PYF89/preview"
     },
     {
         id: 5,
-        title: "Tech Noir",
-        category: "Fashion",
-        type: "client",
-        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&q=80",
-        description: "Avant-garde fashion editorial with glitch art effects."
+        title: "Edit - FNAF",
+        category: "Shorts",
+        type: "hobby",
+        image: "https://drive.google.com/thumbnail?id=1izbem-Yd4l9YNR6pKn0wyB8g8sYWJNb-&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1izbem-Yd4l9YNR6pKn0wyB8g8sYWJNb-/preview"
     },
     {
         id: 6,
-        title: "VFX Study 01",
-        category: "R&D",
+        title: "Edit - Yuta x Itadori",
+        category: "hobby",
         type: "hobby",
-        image: "https://images.unsplash.com/photo-1635322966219-b75ed372eb01?w=800&q=80",
-        description: "Testing new particle systems and compositing techniques."
+        image: "https://drive.google.com/thumbnail?id=1NmCmKc8ITDBsDXhLkLXLNyYydXbZ4IMi&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1NmCmKc8ITDBsDXhLkLXLNyYydXbZ4IMi/preview"
     },
     {
         id: 7,
-        title: "Corporate Identity",
-        category: "Branding",
-        type: "client",
-        image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&q=80",
-        description: "Sleek corporate video for a fintech startup."
+        title: "Edit - Remake Makima",
+        category: "hobby",
+        type: "hobby",
+        image: "https://drive.google.com/thumbnail?id=1xW5w6ohtG6cIkeg9y5qkPklNN6iXoHn1&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1xW5w6ohtG6cIkeg9y5qkPklNN6iXoHn1/preview"
     },
     {
         id: 8,
-        title: "Speed Art",
-        category: "Timelapse",
+        title: "HALO Art",
+        category: "hobby",
         type: "hobby",
-        image: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=800&q=80",
-        description: "A look behind the scenes of my editing process."
+        image: "https://drive.google.com/thumbnail?id=1x6zD2AyfbkdR_zk4AT8CJ_kwjUoBraDs&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1x6zD2AyfbkdR_zk4AT8CJ_kwjUoBraDs/preview"
+    },
+    {
+        id: 9,
+        title: "Gojo Edit",
+        category: "hobby",
+        type: "hobby",
+        image: "https://drive.google.com/thumbnail?id=1sQaRZXR6Ulz2xyhsCnBr0YsxhXVoOSsu&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1sQaRZXR6Ulz2xyhsCnBr0YsxhXVoOSsu/preview"
+    },
+    {
+        id: 10,
+        title: "Edit - Rocket League",
+        category: "hobby",
+        type: "hobby",
+        image: "https://drive.google.com/thumbnail?id=156rrh3r6SK0_21fIfnxZBnWPT8tvhkEr&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/156rrh3r6SK0_21fIfnxZBnWPT8tvhkEr/preview"
+    },
+    {
+        id: 11,
+        title: "Edit - Harley Queen",
+        category: "hobby",
+        type: "hobby",
+        image: "https://drive.google.com/thumbnail?id=1hTYa7d-iYtOWtmQ8Qvp4TxrawBH5ilbA&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1hTYa7d-iYtOWtmQ8Qvp4TxrawBH5ilbA/preview"
+    },
+    {
+        id: 12,
+        title: "Edit - Gojo Jujutsu Kaisen 2026",
+        category: "hobby",
+        type: "hobby",
+        image: "https://drive.google.com/thumbnail?id=1QzrKCsPcNiHpgp3lBINvzpi9t-mqmJWq&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1QzrKCsPcNiHpgp3lBINvzpi9t-mqmJWq/preview"
+    },
+    {
+        id: 13,
+        title: "Igreja",
+        category: "Commercial",
+        type: "client",
+        image: "https://drive.google.com/thumbnail?id=1r5uO-g9G_ULOWCcrcpkCJFv-R5aCSlQw&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1r5uO-g9G_ULOWCcrcpkCJFv-R5aCSlQw/preview"
+    },
+    {
+        id: 14,
+        title: "Gemini Remake",
+        category: "Commercial",
+        type: "client",
+        image: "https://drive.google.com/thumbnail?id=1IfWJjIyxVZByx7Kn1xaZu5wpvl6Q1uP2&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1IfWJjIyxVZByx7Kn1xaZu5wpvl6Q1uP2/preview"
+    },
+    {
+        id: 15,
+        title: "Cliente",
+        category: "Commercial",
+        type: "client",
+        image: "https://drive.google.com/thumbnail?id=1tpMDN4iAv1tq2NTz3w9bWRCFLwt9o7ZG&sz=w800",
+        description: "",
+        videoEmbedUrl: "https://drive.google.com/file/d/1tpMDN4iAv1tq2NTz3w9bWRCFLwt9o7ZG/preview"
     }
 ];
 
