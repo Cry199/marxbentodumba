@@ -37,6 +37,9 @@
     text-align: center;
     margin-bottom: 4rem;
     animation: fadeInDown 0.8s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .portfolio-title {
@@ -48,6 +51,38 @@
 .portfolio-subtitle {
     color: #a0a0a0;
     font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.tab-container {
+    display: flex;
+    gap: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tab-button {
+    background: transparent;
+    border: none;
+    color: #a0a0a0;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.tab-button:hover {
+    color: #fff;
+}
+
+.tab-button.active {
+    background: #fff;
+    color: #000;
 }
 
 .project-grid {
@@ -188,6 +223,126 @@
     }
 }
 
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background: #111;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    animation: scaleIn 0.3s ease;
+}
+
+.close-modal-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.close-modal-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.modal-info {
+    padding: 2rem;
+}
+
+.modal-info h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.modal-info p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.no-video-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    text-align: center;
+}
+
+.no-video-placeholder img {
+    max-width: 300px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 @media (max-width: 768px) {
     .project-grid {
         grid-template-columns: 1fr;
@@ -196,5 +351,13 @@
 
     .portfolio-title {
         font-size: 2.5rem;
+    }
+
+    .modal-content {
+        width: 95%;
+    }
+
+    .modal-info h2 {
+        font-size: 1.5rem;
     }
 }
