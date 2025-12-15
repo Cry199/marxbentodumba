@@ -1,21 +1,69 @@
-# React + TypeScript + Vite
+# Marx Bento Dumbá - Video Editor Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance portfolio website for a Short Form Video Specialist, built with React and Vite.
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+## 🚀 Overview
 
-## Deploy Your Own
+This application serves as a professional showcase for Marx Bento Dumbá, highlighting expertise in "High Retention Short Form Content" such as Reels, TikToks, and Shorts. It features a cinematic dark aesthetic, seamless navigation, and direct video playback capabilities.
 
-Deploy your own Vite project with Vercel.
+## ✨ Features
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
+- **Professional Home Page**: Immersive landing page with a focus on "Short Form" specialization.
+- **Dynamic Portfolio**:
+  - **Categorized Tabs**: Filter projects by "Clientes" (Clients) or "Hobby & Aprimoramento" (Personal Work).
+  - **Video Modal**: Integrated player to watch videos directly (with Google Drive integration).
+  - **Smart Thumbnails**: Automatically fetches video previews from Google Drive.
+- **Responsive Design**: Fully optimized for mobile and desktop viewing.
+- **Social Integration**: Direct links to Instagram and LinkedIn for easy contact.
 
-_Live Example: https://vite-react-example.vercel.app_
+## 🛠️ Tech Stack
 
-### Deploying From Your Terminal
+- **Framework**: [React](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Routing**: [React Router](https://reactrouter.com/)
+- **Styling**: Native CSS (Variables, Flexbox/Grid, Animations)
+- **Fonts**: [Google Fonts (Outfit)](https://fonts.google.com/)
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+## 📦 Installation
 
-```shell
-$ vercel
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd marxbentodumba
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+## 📝 Customization
+
+### Adding Projects
+Edit `src/features/portfolio/pages/PortfolioPage.tsx`:
+```javascript
+{
+    id: 9,
+    title: "New Project",
+    category: "Reels",
+    type: "client",
+    image: "https://drive.google.com/thumbnail?id={VIDEO_ID}&sz=w800",
+    description: "Description of the project.",
+    videoEmbedUrl: "https://drive.google.com/file/d/{VIDEO_ID}/preview"
+}
 ```
+
+### Changing Links
+Links are managed in `HomePage.tsx` and can be updated to point to new social profiles or contact pages.
+
+## � Author
+
+Developed by **[Cry199](https://github.com/Cry199)**.
+
+## �📄 License
+All Rights Reserved © 2025 Marx Bento Dumbá.
