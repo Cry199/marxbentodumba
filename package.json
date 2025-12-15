@@ -2,6 +2,7 @@
   "name": "vite-react",
   "private": true,
   "version": "0.0.0",
+  "author": "Cry199 <https://github.com/Cry199>",
   "type": "module",
   "scripts": {
     "dev": "vite",
