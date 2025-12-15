@@ -16,8 +16,8 @@ const HomePage = () => {
 
                 <nav className="main-nav">
                     <Link to="/portfolio" className="nav-link">SHORTS</Link>
-                    <a href="#about" className="nav-link">ABOUT</a>
-                    <a href="#contact" className="nav-link">CONTACT</a>
+                    <a href="https://www.linkedin.com/in/marx-bento-dumb%C3%A1/" className="nav-link">ABOUT</a>
+                    <a href="https://www.instagram.com/marx_e.d/" className="nav-link">CONTACT</a>
                 </nav>
             </header>
 
@@ -40,13 +40,9 @@ const HomePage = () => {
 
             <footer className="home-footer">
                 <div className="social-links">
-                    <a href="#instagram" className="social-link" aria-label="Instagram">Instagram</a>
+                    <a href="https://www.instagram.com/marx_e.d/" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
                     <span className="separator">/</span>
-                    <a href="#youtube" className="social-link" aria-label="YouTube">YouTube</a>
-                    <span className="separator">/</span>
-                    <a href="#twitter" className="social-link" aria-label="Twitter">Twitter</a>
-                    <span className="separator">/</span>
-                    <a href="#facebook" className="social-link" aria-label="Facebook">Facebook</a>
+                    <a href="https://www.linkedin.com/in/marx-bento-dumb%C3%A1/" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
                 </div>
                 <p className="copyright">© {new Date().getFullYear()} Marx Bento Dumbá. All Rights Reserved.</p>
             </footer>
