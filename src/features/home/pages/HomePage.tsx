@@ -45,6 +45,7 @@ const HomePage = () => {
                     <a href="https://www.linkedin.com/in/marx-bento-dumb%C3%A1/" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
                 </div>
                 <p className="copyright">© {new Date().getFullYear()} Marx Bento Dumbá. All Rights Reserved.</p>
+                <p className="developer-credit">Developed by <a href="https://github.com/Cry199" target="_blank" rel="noopener noreferrer">Cry199</a></p>
             </footer>
         </div>
     );

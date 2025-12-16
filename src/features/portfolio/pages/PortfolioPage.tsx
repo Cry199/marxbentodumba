@@ -245,6 +245,7 @@ const PortfolioPage = () => {
 
             <footer className="portfolio-footer">
                 <p>© {new Date().getFullYear()} Marx Bento Dumbá. Let's create something together.</p>
+                <p className="developer-credit">Developed by <a href="https://github.com/Cry199" target="_blank" rel="noopener noreferrer">Cry199</a></p>
             </footer>
         </div>
     );

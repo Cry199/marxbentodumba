@@ -199,6 +199,22 @@
     font-size: 0.9rem;
 }
 
+.developer-credit {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.developer-credit a {
+    color: #777;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.developer-credit a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 @keyframes fadeInDown {
     from {
         opacity: 0;
